@@ -1,0 +1,1023 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Billink\n"
+"POT-Creation-Date: 2021-04-29 09:38+0200\n"
+"PO-Revision-Date: 2023-12-04 10:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Nederlands\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: app\n"
+"X-Poedit-SearchPath-1: config\n"
+
+#: config/fields.php:121
+msgid " "
+msgstr " "
+
+#: app/views/admin.metabox.php:33
+msgid "(optional, max 254 characters)"
+msgstr "(optioneel, max. 254 tekens)"
+
+#: app/controllers/ErrorController.php:65
+#, php-format
+msgid ""
+"A connection error occured while sending the credit request. Error(s): %s"
+msgstr ""
+"Er is een verbindingsprobleem gedetecteerd bij het versturen van het credit "
+"verzoek. Foutmelding: %s"
+
+#: app/controllers/ErrorController.php:103
+#, php-format
+msgid ""
+"A connection error occured while sending the start workflow request. Error(s)"
+": %s"
+msgstr ""
+"Er is een verbindingsprobleem gedetecteerd bij het versturen van het 'start "
+"workflow' verzoek. Foutmelding: %s"
+
+#: config/fields.php:199
+msgid "A phonenumber is required."
+msgstr "Telefoonnummer is verplicht."
+
+#: app/controllers/ErrorController.php:56
+#, php-format
+msgid "A validation error occured. Error(s): %s"
+msgstr "Er is een validatie fout opgetreden. Foutmelding: %s"
+
+#: config/errors.php:18 config/errors.php:62
+msgid "Achternaam ontbreekt."
+msgstr "Achternaam ontbreekt."
+
+#: app/views/admin.metabox.php:22
+msgid "Add note [Unavailable]"
+msgstr "Opmerking toevoegen [Unavailable]"
+
+#: config/fields.php:128
+msgid ""
+"Add the URL to the Billink terms. The default terms of Billink are found "
+"here: https://www.billink.nl/voorwaarden/gebruikersvoorwaarden.pdf"
+msgstr ""
+"Voer een URL in naar de AV van Billink. De standaard voorwaarden van Billink "
+"vindt je hier: https://www.billink.nl/voorwaarden/gebruikersvoorwaarden.pdf"
+
+#: config/fields.php:133
+msgid "Advanced Settings"
+msgstr "Geavanceerde Instellingen"
+
+#: app/models/Gateway/Gateway.php:72
+msgid "An error occured. Please contact the shop owner."
+msgstr "Er is een fout opgetreden, neem contact op met de webshop."
+
+#: app/controllers/ErrorController.php:82
+msgid ""
+"An unknown error occured while trying to credit an order in Billink. Consult "
+"the logs for a detailed error report."
+msgstr ""
+"Er is een onbekende fout opgetreden tijdens het crediteren van de order. "
+"Bekijk de logs voor een gedetailleerd foutenrapport."
+
+#: app/controllers/ErrorController.php:120
+msgid ""
+"An unkown error occured while trying to start the workflow. Consult the logs "
+"for a detailed error report."
+msgstr ""
+"Er is een onbekende fout opgetreden tijdens het starten van de order. Bekijk "
+"de logs voor een gedetailleerd foutrapport."
+
+#: app/models/Gateway/Gateway.php:78 app/models/Gateway/Gateway.php:84
+msgid "An unkown error occured. Please contact the shop owner."
+msgstr "Er is een onbekende fout opgetreden. Neem contact op met de webshop."
+
+#: app/models/Gateway/Settings/PaymentCost.php:47
+msgid "Any country"
+msgstr "Elk land"
+
+#: config/errors.php:78
+msgid "Artikelcode is te lang."
+msgstr "Artikelcode is te lang."
+
+#: config/errors.php:138
+msgid "Bankrekeningnummer voor terugboeking niet gevonden"
+msgstr "Bankrekeningnummer voor terugboeking niet gevonden"
+
+#: config/errors.php:35
+msgid "Bedrag is hoger dan afgesproken."
+msgstr "Bedrag is hoger dan afgesproken."
+
+#: config/errors.php:36 config/errors.php:93
+msgid "Bedrijfsnaam moet tussen de 2 en 50 karakters lang zijn."
+msgstr "Bedrijfsnaam moet tussen de 2 en 50 karakters lang zijn."
+
+#: config/errors.php:17 config/errors.php:60
+msgid "Bedrijfsnaam ontbreekt."
+msgstr "Bedrijfsnaam ontbreekt."
+
+#: config/fields.php:29
+msgid "Billink"
+msgstr "Billink"
+
+#. Name of the plugin
+msgid "Billink - Achteraf Betalen"
+msgstr "Billink - afterpayment services"
+
+#: config/gateway.php:9
+msgid "Billink - afterpayment services"
+msgstr "Billink - achteraf betalen"
+
+#: app/controllers/AdminActionController.php:31
+msgid "Billink action cannot be executed: invalid action and/or order."
+msgstr "Billink actie kan niet uitgevoerd worden: onbekende actie en/of order."
+
+#: config/fields.php:48
+msgid "Billink ID"
+msgstr "Billink ID"
+
+#. Description of the plugin
+msgid ""
+"Billink integratie in WooCommerce. Plugin ontwikkeling door Tussendoor B.V."
+msgstr ""
+
+#: app/models/Gateway/FeeProcessor.php:34
+msgid "Billink payment costs"
+msgstr "Billink betaalkosten"
+
+#: app/controllers/ErrorController.php:74
+#, php-format
+msgid "Billink returned an error while trying to credit an order. Error: %s"
+msgstr ""
+"Er is een fout opgetreden in Billink tijdens het crediteren van de order. "
+"Foutmelding: %s"
+
+#: app/controllers/ErrorController.php:112
+#, php-format
+msgid "Billink returned an error while trying to start the workflow. Error: %s"
+msgstr ""
+"Er is een fout opgetreden in Billink tijdens het starten van de workflow. "
+"Foutmelding: %s"
+
+#: config/fields.php:126
+msgid "Billink terms"
+msgstr "Algemene Voorwaarden Billink"
+
+#: config/fields.php:138
+msgid "Billink testing"
+msgstr "Billink testmodus"
+
+#: config/fields.php:158
+msgid "Birthdate"
+msgstr "Geboortedatum"
+
+#: config/fields.php:164 app/models/Gateway/FieldValidationProcessor.php:66
+msgid "Birthdate is required."
+msgstr "Geboortedatum is verplicht."
+
+#: app/models/Gateway/FieldValidationProcessor.php:78
+#: app/models/Gateway/FieldValidationProcessor.php:89
+msgid "Birthdate must be formatted as dd-mm-yyyy."
+msgstr "Het format voor de geboortedatum moet gelijk zijn aan dd-mm-jjjj."
+
+#: config/fields.php:167
+msgid "Birthdate must me formatted as dd-mm-yyyy."
+msgstr "Het format voor de geboortedatum moet gelijk zijn aan dd-mm-jjjj."
+
+#: app/views/setting.workflow.php:28 app/views/setting.workflow.php:60
+msgid "Business"
+msgstr "Zakelijk"
+
+#: config/fields.php:174
+msgid "Chamber of Commerce number"
+msgstr "Kamer van Koophandel nummer"
+
+#: config/fields.php:180 app/models/Gateway/FieldValidationProcessor.php:51
+msgid "Chamber of Commerce number is required."
+msgstr "Kamer van Koophandel nummer is verplicht."
+
+#: config/fields.php:96
+msgid ""
+"Change the WooCommerce order status after a customer has succesfully ordered "
+"through Billink. The default is 'processing'."
+msgstr ""
+"Verander de WooCommerce orderstatus wanneer een order succesvol via Billink "
+"is betaald. De standaard is 'processing' ('In behandeling')."
+
+#: config/errors.php:92
+msgid "Check UIDD ontbreekt."
+msgstr "Check UIDD ontbreekt."
+
+#: app/exceptions/FailedCreditCheck.php:22
+msgid ""
+"Choose a different payment method. The order amount is higher than allowed "
+"(max 10.000,- excl. VAT)"
+msgstr ""
+"Kies een andere betaalmethode. Het orderbedrag is te hoog voor achteraf "
+"betalen via Billink (maximaal €10.000,- excl. BTW)"
+
+#: app/views/setting.paymentcost.php:13
+msgid ""
+"Configure additional costs passed to the customer. Select a country to "
+"restrict the costs to the country of the customer or select \"Any country\" "
+"to disable the restriction."
+msgstr ""
+"Configureer extra kosten voor het gebruiken van Billink. Selecteer een land "
+"om een restrictie toe te passen op basis van het land van de klant of "
+"selecteer \"Elk land\" om geen restrictie toe te passen."
+
+#: config/fields.php:77
+msgid "Costs which will be passed to the customer when paying through Billink."
+msgstr ""
+"Dit zijn de kosten die doorberekend worden aan de klant voor het gebruik van "
+"Billink."
+
+#: app/views/setting.paymentcost.php:24 app/views/setting.workflow.php:14
+#: app/views/setting.workflow.php:46
+msgid "Country"
+msgstr "Land"
+
+#: app/views/admin.metabox.php:21
+msgid "Credit"
+msgstr "Crediteren"
+
+#: app/views/admin.metabox.php:28
+msgid "Credit amount"
+msgstr "Credit bedrag"
+
+#: app/controllers/CreditController.php:206
+msgid "Credit for invoice %d processed."
+msgstr "Factuur %d is gecrediteerd."
+
+#: config/errors.php:136 config/errors.php:137
+msgid "Credit kan niet worden uitgevoerd. Neem contact op met Billink."
+msgstr "Credit kan niet worden uitgevoerd. Neem contact op met Billink."
+
+#: config/errors.php:91
+msgid "De check UIDD is al bij een andere factuur gebruikt."
+msgstr "De check UIDD is al bij een andere factuur gebruikt."
+
+#: config/errors.php:90
+msgid "De UIDD van de check is verlopen."
+msgstr "De UIDD van de check is verlopen."
+
+#: config/fields.php:33 app/views/admin.metabox.php:33
+#: app/views/admin.metabox.php:46
+msgid "Description"
+msgstr "Omschrijving"
+
+#: config/fields.php:108
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: app/models/Converters/OrderLines.php:210
+msgid "Discounts"
+msgstr "Kortingen"
+
+#: config/fields.php:36
+msgid "Easily pay afterward with Billink."
+msgstr "Betaal gemakkelijk achteraf via Billink."
+
+#: config/errors.php:26 config/errors.php:70
+msgid "Email ontbreekt."
+msgstr "Email ontbreekt."
+
+#: config/fields.php:11
+msgid "Enable Billink"
+msgstr "Activeer Billink"
+
+#: config/fields.php:15 config/fields.php:17
+msgid "Enable Billink for specific countries"
+msgstr "Activeer Billink voor bepaalde landen"
+
+#: config/fields.php:140
+msgid ""
+"Enable test mode. If enabled, orders are sent to test.billink.nl instead of "
+"app.billink.nl. Enable the \"BILLINK_DEBUG\" constant for additional logging."
+msgstr ""
+"Schakel testmodus in. Wanneer deze optie is ingeschakeld, worden orders naar "
+"test.billink.nl verstuurd in plaats van app.billink.nl. Activeer de constant "
+"\"BILLINK_DEBUG\" voor uitgebreidere logging."
+
+#: config/fields.php:18
+msgid ""
+"Enable the Billink gateway for specific countries only. Replaces the old "
+"\"Hide for non-dutch customers\" option. Leave empty to enable Billink for "
+"all countries. Limits within Billink do still apply."
+msgstr ""
+"Activeer de betaalmethode Billink enkel voor bepaalde landen. Deze optie "
+"vervangt de oude \"Verberg voor niet Nederlandse klanten\" optie. Laat deze "
+"optie leeg om de betaalmethode voor alle landen te activeren. Let op: land "
+"limitaties in Billink zelf zijn nog steeds van toepassing."
+
+#: config/fields.php:9
+msgid "Enable/Disable"
+msgstr "Activeren/Deactiveren"
+
+#: app/views/admin.metabox.php:40
+msgid "Execute"
+msgstr "Uitvoeren"
+
+#: app/views/admin.metabox.php:17
+msgid "Execute an action:"
+msgstr "Voer een actie uit:"
+
+#: config/errors.php:55
+msgid "Factuurnummer ontbreekt."
+msgstr "Factuurnummer ontbreekt."
+
+#: config/errors.php:84
+msgid ""
+"Factuurnummer voldoet niet aan de vereisten. Alleen alfanumeriek is "
+"toegestaan. _ (onderstreping) en - (koppelteken)."
+msgstr ""
+"Factuurnummer voldoet niet aan de vereisten. Alleen alfanumeriek is "
+"toegestaan. _ (onderstreping) en - (koppelteken)."
+
+#: config/errors.php:108
+msgid "Factuurnummers ontbreken."
+msgstr "Factuurnummers ontbreken."
+
+#: config/fields.php:63
+msgid "Fallback Workflow"
+msgstr "Backup Workflow"
+
+#: config/errors.php:45
+msgid "Financiële regeling ontbreekt."
+msgstr "Financiële regeling ontbreekt."
+
+#: app/views/setting.paymentcost.php:79
+msgid "Fixed amount"
+msgstr "Vast bedrag"
+
+#: config/errors.php:41 config/errors.php:97 config/errors.php:109
+msgid "Fout bij het parseren van het XML-bestand."
+msgstr "Fout bij het verwerken van het XML-bestand."
+
+#: config/errors.php:28 config/errors.php:73
+msgid "Geboortedatum ontbreekt."
+msgstr "Geboortedatum ontbreekt."
+
+#: config/errors.php:43
+msgid "Gebruiker niet gevonden."
+msgstr "Gebruiker niet gevonden."
+
+#: config/errors.php:88
+msgid "Geef een geldig iban / rekeningnummer op."
+msgstr "Geef een geldig iban / rekeningnummer op."
+
+#: config/errors.php:111 config/errors.php:120 config/errors.php:134
+msgid "Geen facturen aangeboden."
+msgstr "Geen facturen aangeboden."
+
+#: config/errors.php:63
+msgid "Geslacht ontbreekt."
+msgstr "Geslacht ontbreekt."
+
+#: config/errors.php:123
+msgid "Het limiet is maximaal 10 facturen per aanvraag."
+msgstr "Het limiet is maximaal 10 facturen per aanvraag."
+
+#: config/errors.php:106
+msgid "Het limiet is maximaal 100 facturen per aanvraag."
+msgstr "Het limiet is maximaal 100 facturen per aanvraag."
+
+#: config/errors.php:56 config/errors.php:131
+msgid "Het opgegeven factuurnummer bestaat al."
+msgstr "Het opgegeven factuurnummer bestaat al."
+
+#: config/errors.php:54 config/errors.php:130
+msgid "Het opgegeven workflownummer bestaat niet."
+msgstr "Het opgegeven workflownummer bestaat niet."
+
+#. Author URI of the plugin
+msgid "https://tussendoor.nl/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://tussendoor.nl/wordpress-plugins/"
+msgstr ""
+
+#: config/errors.php:37 config/errors.php:95
+msgid "Huisnummer extentie moet tussen de 0 en 10 karakters lang zijn."
+msgstr "Huisnummer extentie moet tussen de 0 en 10 karakters lang zijn."
+
+#: config/errors.php:21 config/errors.php:66
+msgid "Huisnummer ontbreekt."
+msgstr "Huisnummer ontbreekt."
+
+#: app/models/Gateway/Gateway.php:163
+#, php-format
+msgid "I accept the %sBillink terms%s"
+msgstr "Ik ga akkoord met %sde algemene voorwaarden van Billink%s"
+
+#: app/views/admin.metabox.php:44
+msgid "ID"
+msgstr "ID"
+
+#: config/fields.php:65
+msgid ""
+"If a customer does not match the above workflow rules, this fallback "
+"workflow will be used."
+msgstr ""
+"Wanneer een klant niet voldoet aan bovenstaande workflow configuratie wordt "
+"dit nummer gebruikt."
+
+#: config/errors.php:39
+msgid "Incorrect country code"
+msgstr "Ongeldige landcode"
+
+#: config/errors.php:40
+msgid "Incorrect delivery country code"
+msgstr "Ongeldige bezorging landcode"
+
+#: config/errors.php:121 config/errors.php:135
+msgid "Je hebt onvoldoende rechten om een aanpassing te doen op deze order."
+msgstr "Je hebt onvoldoende rechten om een aanpassing te doen op deze order."
+
+#: config/errors.php:44 config/errors.php:99
+msgid "Klant is afgewezen voor de credit check."
+msgstr "Klant is afgewezen voor de credit check."
+
+#: config/errors.php:79
+msgid "KvK nummer moet tussen de 5 en 25 karakters bevatten."
+msgstr "KvK nummer moet tussen de 5 en 25 karakters bevatten."
+
+#: config/errors.php:77
+msgid "KvK nummer ontbreekt."
+msgstr "KvK nummer ontbreekt."
+
+#: config/errors.php:19
+msgid "KvK ontbreekt."
+msgstr "KvK ontbreekt."
+
+#: config/fields.php:144
+msgid "Logging"
+msgstr "Logbestanden"
+
+#: config/fields.php:87
+msgid "Maximum order amount"
+msgstr "Maximaal orderbedrag"
+
+#: config/fields.php:118
+msgid "Message when succesfully processed."
+msgstr "Het bericht wanneer een order succesvol is verwerkt."
+
+#: config/fields.php:120
+msgid "Message which will be shown on the thank you page of placing an order."
+msgstr ""
+"Dit bericht wordt weergegeven op de 'bedankt' pagina wanneer een order "
+"succesvol is geplaatst."
+
+#: config/fields.php:114
+msgid "Message which will be shown when Billink doens't accept an customer."
+msgstr ""
+"Het bericht die een bezoeker te zien krijgt wanneer Billink de klant niet "
+"accepteert."
+
+#: config/errors.php:29
+msgid "Minimale leeftijd om met Billink te kunnen bestellen is 16 jaar."
+msgstr "Minimale leeftijd om met Billink te kunnen bestellen is 16 jaar."
+
+#: config/fields.php:81
+msgid "Minum order amount"
+msgstr "Minimaal orderbedrag"
+
+#: config/errors.php:57
+msgid "Missing date."
+msgstr "Geen datum gevonden."
+
+#: app/views/setting.paymentcost.php:93 app/views/setting.workflow.php:42
+msgid "New configuration"
+msgstr "Nieuwe configuratie"
+
+#: app/views/setting.paymentcost.php:15
+msgid ""
+"Next, select a costs type. \"Percentage\" calculates a percentage based cost "
+"based off of the order amount. Set the type to \"Fixed\" to apply a fixed "
+"costs to the order."
+msgstr ""
+"Selecteer vervolgens een kosten type. \"Percentage\" zorgt er voor dat er "
+"een percentage van het orderbedrag wordt toegepast als extra kosten. Zet "
+"deze optie op \"Vast\" om een vast bedrag aan de order toe te voegen."
+
+#: config/fields.php:112
+msgid "Notification when rejected"
+msgstr "Notificatie bij weigering"
+
+#: config/errors.php:119
+msgid "Onbekend factuurnummer"
+msgstr "Onbekend factuurnummer"
+
+#: config/errors.php:11 config/errors.php:52 config/errors.php:105
+#: config/errors.php:117 config/errors.php:129
+msgid "Onbekende actie."
+msgstr "Onbekende actie."
+
+#: config/errors.php:8 config/errors.php:49 config/errors.php:102
+#: config/errors.php:114 config/errors.php:126
+msgid "Onbekende API versie."
+msgstr "Onbekende API versie."
+
+#: config/errors.php:9 config/errors.php:10 config/errors.php:50
+#: config/errors.php:51 config/errors.php:103 config/errors.php:104
+#: config/errors.php:115 config/errors.php:116 config/errors.php:127
+#: config/errors.php:128
+msgid "Onbekende gebruikersnaam of UID."
+msgstr "Onbekende gebruikersnaam of UID."
+
+#. The special case for Belgium customers, changes the Chamber of Commerce label
+#: app/models/Gateway/FieldRenderer.php:42
+msgid "Ondernemingsnummer"
+msgstr "Ondernemingsnummer"
+
+#: config/errors.php:72
+msgid "Onjuiste landcode, gebruik ISO 3166-1 alpha-2."
+msgstr "Onjuiste landcode, gebruik ISO 3166-1 alpha-2."
+
+#: app/models/Status/StatusEnum.php:24
+msgid "Open"
+msgstr "Open"
+
+#: app/models/Gateway/PaymentProcessor.php:78
+msgid "Order creation failed"
+msgstr "Het aanmaken van de order is mislukt"
+
+#: app/models/Status/StatusEnum.php:18
+msgid "Order does not exist"
+msgstr "Deze order bestaat niet"
+
+#: config/errors.php:122
+msgid "Order is al gestart en verstuurd naar de consument."
+msgstr "Order is al gestart en verstuurd naar de consument."
+
+#: app/views/setting.paymentcost.php:25
+msgid "Orderamount"
+msgstr "Orderbedrag"
+
+#: config/errors.php:89
+msgid "Orderbedrag is hoger dan aangevraagd in de check."
+msgstr "Orderbedrag is hoger dan aangevraagd in de check."
+
+#: config/errors.php:33
+msgid "Orderbedrag ontbreekt."
+msgstr "Orderbedrag ontbreekt."
+
+#: app/models/Status/StatusEnum.php:22
+msgid "Paid"
+msgstr "Betaald"
+
+#: config/fields.php:75
+msgid "Payment costs"
+msgstr "Betalingskosten"
+
+#: app/views/setting.paymentcost.php:12
+msgid "Payment Costs instructions"
+msgstr "Instructie Betalingskosten"
+
+#: app/exceptions/FailedCreditCheck.php:23
+msgid ""
+"Payment through Billink not possible. Delivery address does not match "
+"billing address."
+msgstr ""
+"Achteraf betalen via Billink is niet mogelijk, het afleveradres komt niet "
+"overeen met het factuuradres."
+
+#: app/views/setting.paymentcost.php:27 app/views/setting.paymentcost.php:78
+msgid "Percentage"
+msgstr "Percentage"
+
+#: config/fields.php:194
+msgid "Phonenumber"
+msgstr "Telefoon"
+
+#: config/errors.php:71
+msgid "Plaatsnaam mag alleen letters, spaties, - en ' tekens bevatten."
+msgstr "Plaatsnaam mag alleen letters, spaties, - en ' tekens bevatten."
+
+#: config/errors.php:68
+msgid "Plaatsnaam ontbreekt."
+msgstr "Plaatsnaam ontbreekt."
+
+#: app/views/setting.paymentcost.php:18
+msgid ""
+"Please note: payment costs are applied in the order they're added. If some "
+"costs overlap, only the first encountered costs will be applied."
+msgstr ""
+"Let op: betalingskosten worden toegepast op basis van de volgorde waarin ze "
+"zijn toegevoegd. Als sommige kosten regels overlappen wordt de eerste "
+"toegepast."
+
+#: config/errors.php:22 config/errors.php:67
+msgid "Postcode ontbreekt."
+msgstr "Postcode ontbreekt."
+
+#: app/views/admin.metabox.php:23
+msgid "Put On Hold [Unavailable]"
+msgstr "Zet 'On Hold' [Unavailable]"
+
+#: config/errors.php:42 config/errors.php:98 config/errors.php:110
+#: config/errors.php:118 config/errors.php:133
+msgid "Redirect API fout. Neem contact op met Billink."
+msgstr "Redirect API fout. Neem contact op met Billink."
+
+#: config/errors.php:76
+msgid "Rekeninghouder ontbreekt."
+msgstr "Rekeninghouder ontbreekt."
+
+#: config/errors.php:75
+msgid "Rekeningnummer ontbreekt."
+msgstr "Rekeningnummer ontbreekt."
+
+#: config/errors.php:107
+msgid "Request limit exceeded."
+msgstr "Verzoek limiet overschreden."
+
+#: config/errors.php:83
+msgid "Secondaire mail is verkeerd ingevuld."
+msgstr "Secondaire mail is verkeerd ingevuld."
+
+#: app/views/setting.paymentcost.php:14
+msgid ""
+"Select a minimum and maximum order amount. When the order amount is between "
+"those two numbers, the costs will be applied. Leave the maximum order amount "
+"empty to put no restriction on the order amount. Decimals are not supported. "
+"The order amount used to calculate the fee is excluding any other fee."
+msgstr ""
+"Selecteer een minimum en een maximum order bedrag. Wanneer een order tussen "
+"deze twee bedragen ligt, worden de aangegeven kosten toegevoegd aan de order."
+" Laat het maximum leeg om geen restrictie te zetten op de hoogte van het "
+"order bedrag. Decimalen worden niet ondersteund. Het orderbedrag waarop de "
+"kosten worden berekend is exclusief andere kosten ('fees')."
+
+#: app/views/admin.metabox.php:19
+msgid "Select an action"
+msgstr "Selecteer een actie"
+
+#: config/fields.php:104
+msgid ""
+"Select the WooCommerce order status after which the workflow in Billink "
+"should be started."
+msgstr ""
+"Selecteer de WooCommerce order status die bereikt moet worden om de workflow "
+"in Billink automatisch te starten."
+
+#: config/fields.php:71
+msgid "Settings"
+msgstr "Instellingen"
+
+#: config/fields.php:146
+msgid "Since version 2.0.0, logging is enabled by default."
+msgstr ""
+"Logbestanden worden automatisch aangemaakt en bijgehouden sinds versie 2.0.0."
+
+#: app/views/admin.metabox.php:7
+msgid "Something went wrong while retrieving the order status."
+msgstr "Er is iets misgegaan bij het ophalen van de order status."
+
+#: app/views/admin.metabox.php:3
+msgid "Something went wrong while retrieving the order."
+msgstr ""
+
+#: config/fields.php:115
+msgid "Sorry, Billink has rejected your payment request."
+msgstr ""
+"Helaas is het niet mogelijk om te betalen via Billink, kies een andere "
+"betaalmethode."
+
+#: app/views/admin.metabox.php:20
+msgid "Start workflow"
+msgstr "Start Workflow"
+
+#: config/fields.php:102
+msgid "Start workflow automatically"
+msgstr "Start workflow automatisch"
+
+#: app/views/admin.metabox.php:45
+msgid "Status"
+msgstr "Status"
+
+#: config/errors.php:65
+msgid "Straat ontbreekt."
+msgstr "Straat ontbreekt."
+
+#: config/errors.php:94
+msgid "Telefoonnummer mag alleen nummers bevatten."
+msgstr "Telefoonnummer mag alleen nummers bevatten."
+
+#: config/errors.php:24 config/errors.php:69
+msgid "Telefoonnummer ontbreekt."
+msgstr "Telefoonnummer ontbreekt."
+
+#: app/controllers/CreditController.php:149
+msgid "The amount to credit cannot be greater than the order amount."
+msgstr "Het creditbedrag mag niet groter zijn dan het order totaal."
+
+#: app/controllers/CreditController.php:145
+msgid "The amount to credit cannot be zero or empty."
+msgstr "Het creditbedrag kan niet leeg of 0 zijn."
+
+#: app/controllers/CreditController.php:153
+msgid "The credit description cannot contain more than 254 characters."
+msgstr "De credit omschrijving mag niet meer dan 254 tekens bevatten."
+
+#: config/fields.php:35
+msgid ""
+"The description which will be shown when the custoner selects Billink as "
+"payment method."
+msgstr ""
+
+#: app/views/setting.paymentcost.php:16
+msgid ""
+"The last input either contains the percentage of costs or the fixed costs."
+msgstr ""
+"Het laatste invoerveld bevat het percentage of de hoogte van de vaste kosten."
+
+#: config/fields.php:150
+#, php-format
+msgid ""
+"The logs are since version 2.0.0 handled by the logging system in "
+"WooCommerce. \n"
+"They can be found by navigating to the menu item 'WooCommerce' -> 'Status' ->"
+" 'Logs'. \n"
+"Or click this link to view the page directly: %s \n"
+"\n"
+" Don't forget to change the log to one of Billink, by selecting it from the "
+"dropdown in the upper right corner."
+msgstr ""
+"Logbestanden worden automatisch aangemaakt en bijgehouden via het logging "
+"systeem in WooCommerce, sinds versie 2.0.0. \n"
+"Je kunt de logs vinden door naar het menu item 'WooCommerce' te gaan en te "
+"klikken op 'Status' -> 'Logs'. \n"
+"Of klik op deze link om de pagina rechtstreeks te openen: %s \n"
+"\n"
+"Vergeet niet om in de dropdown rechts bovenin de juiste Billink log te "
+"selecteren."
+
+#: config/fields.php:89
+msgid ""
+"The maximum amount that can be settled with Billink. If this field is kept "
+"empty or set to 0, the plugin allow any order amount. Limits within Billink "
+"do still apply. Use a dot (.) as a decimal separator"
+msgstr ""
+"Het maximale orderbedrag wat een klant via Billink kan bestellen. Wanneer "
+"dit veld leeg is of op 0 staat, wordt er geen limiet toegepast door de "
+"plugin. Limieten in Billink zijn wel nog steeds van toepassing. Gebruik een "
+"punt (.) als decimaalscheidingsteken"
+
+#: config/fields.php:83
+msgid ""
+"The minimum amount that can be settled with Billink. If this field is kept "
+"empty or set to 0, the plugin allow any order amount. Limits within Billink "
+"do still apply. Use a dot (.) as a decimal separator"
+msgstr ""
+"Het minimale orderbedrag wat een klant via Billink kan bestellen. Wanneer "
+"dit veld leeg is of op 0 staat, wordt er geen limiet toegepast door de "
+"plugin. Limieten in Billink zijn wel nog steeds van toepassing. Gebruik een "
+"punt (.) als decimaalscheidingsteken"
+
+#: config/fields.php:28
+msgid ""
+"The name of this payment method which will be shown to the customer when "
+"making the payment."
+msgstr "De naam van de betaalmethode die klant te zien krijgt."
+
+#: config/fields.php:58
+msgid ""
+"The workflow number used by Billink. You can specify a workflow per country "
+"and if the customer is a business or not. Contact Billink if you're unsure "
+"what number you should use."
+msgstr ""
+"Het workflow nummer gebruikt door Billink. Je kunt onderscheid maken per "
+"land en voor zakelijke of consument bestellingen. Neem contact op met "
+"Billink wanneer je niet zeker weet welk workflow nummer je moet gebruiken."
+
+#: app/views/admin.metabox.php:15
+msgid "This order is paid through Billink.nl"
+msgstr "Deze order is betaald via Billink.nl"
+
+#: config/fields.php:26
+msgid "Title"
+msgstr "Titel"
+
+#. Author of the plugin
+msgid "Tussendoor B.V."
+msgstr ""
+
+#: app/views/setting.paymentcost.php:26
+msgid "Type"
+msgstr "Type"
+
+#: config/errors.php:15 config/errors.php:58
+msgid "Type ontbreekt."
+msgstr "Type ontbreekt."
+
+#: config/errors.php:85
+msgid "UIDD vanuit de check is niet gevonden."
+msgstr "UIDD vanuit de check is niet gevonden."
+
+#: app/controllers/CreditController.php:188
+msgid "Unable to credit order: please contact Billink."
+msgstr "Kan credit niet uitvoeren: neem contact op met Billink."
+
+#: app/controllers/CreditController.php:170
+msgid "Unable to credit order: The given order does not exist in Billink."
+msgstr "Kan credit niet uitvoeren: De order bestaat niet in Billink."
+
+#: app/controllers/CreditController.php:179
+msgid ""
+"Unable to credit order: The plugin does not have the required permissions."
+msgstr "Kan credit niet uitvoeren: De plugin heef niet voldoende rechten."
+
+#: app/controllers/CreditController.php:197
+msgid ""
+"Unable to credit order: unknown bankaccount, chargeback could not be "
+"completed."
+msgstr ""
+"Kan credit niet uitvoeren: onbekend bankrekeningnummer, terugstorting kan "
+"niet worden uitgevoerd."
+
+#: app/controllers/CreditController.php:212
+msgid ""
+"Unable to determine if the credit was successful, unknown response from "
+"Billink."
+msgstr ""
+"Kan niet vaststellen of credit succesvol is uitgevoerd, onbekende reactie "
+"van Billink."
+
+#: app/controllers/WorkflowController.php:126
+msgid "Unable to determine if workflow started, unknown response from Billink."
+msgstr ""
+"Kan niet vaststellen of de workflow is gestart, onbekende reactie van "
+"Billink."
+
+#: app/controllers/WorkflowController.php:100
+msgid "Unable to start workflow: The given order does not exist in Billink."
+msgstr "Kan workflow niet starten: De order bestaat niet in Billink."
+
+#: app/controllers/WorkflowController.php:109
+msgid ""
+"Unable to start workflow: the workflow of the given order has already "
+"started."
+msgstr "Kan workflow niet starten: de workflow voor deze order is al gestart."
+
+#: app/models/Gateway/OrderProcessor.php:65
+#, php-format
+msgid "Unknown order number %s"
+msgstr "Onbekend order nummer: %s"
+
+#: app/models/Status/StatusEnum.php:20
+msgid "Unpaid"
+msgstr "Onbetaald"
+
+#: config/fields.php:40
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: config/fields.php:186
+msgid "VAT number"
+msgstr "BTW nummer"
+
+#: config/errors.php:32
+msgid "Verkeerd afleveradres"
+msgstr "Verkeerd afleveradres"
+
+#: config/errors.php:81
+msgid "Verkeerd btw-nummer formaat."
+msgstr "Verkeerd btw-nummer formaat."
+
+#: config/errors.php:27 config/errors.php:82
+msgid "Verkeerd email formaat."
+msgstr "Verkeerd email formaat."
+
+#: config/errors.php:25
+msgid "Verkeerd geboortedatum formaat. Gebruik dd-mm-yyyy."
+msgstr "Verkeerd geboortedatum formaat. Gebruik dd-mm-yyyy."
+
+#: config/errors.php:64
+msgid "Verkeerd geslacht formaat."
+msgstr "Verkeerd geslacht formaat."
+
+#: config/errors.php:31
+msgid "Verkeerd huisnummer formaat bij het afleveradres."
+msgstr "Verkeerd huisnummer formaat bij het afleveradres."
+
+#: config/errors.php:30
+msgid "Verkeerd huisnummer formaat."
+msgstr "Verkeerd huisnummer formaat."
+
+#: config/errors.php:74
+msgid "Verkeerd IP-adres formaat."
+msgstr "Verkeerd IP-adres formaat."
+
+#: config/errors.php:86
+msgid "Verkeerd mandaat id. Mag alleen getallen bevatten."
+msgstr "Verkeerd mandaat id. Mag alleen getallen bevatten."
+
+#: config/errors.php:87
+msgid "Verkeerd mandaat type. Gebruik: \"FIRST, \"RECURRING\" of \"ONETIME\"."
+msgstr "Verkeerd mandaat type. Gebruik: \"FIRST, \"RECURRING\" of \"ONETIME\"."
+
+#: config/errors.php:34
+msgid "Verkeerd orderbedrag."
+msgstr "Verkeerd orderbedrag."
+
+#: config/errors.php:23
+msgid "Verkeerd postcode formaat."
+msgstr "Verkeerd postcode formaat."
+
+#: config/errors.php:14
+msgid "Verkeerd telefoonnummer formaat."
+msgstr "Verkeerd telefoonnummer formaat."
+
+#: config/errors.php:16 config/errors.php:59
+msgid "Verkeerd type."
+msgstr "Verkeerd type."
+
+#: config/errors.php:13 config/errors.php:53
+msgid "Verkeerd workflownummer."
+msgstr "Verkeerd workflownummer."
+
+#: config/errors.php:80
+msgid ""
+"Verkeerde btw-waarde, gebruik de volgende waardes ('20', '1.20', '21', '1."
+"21', '19', '1.19', '7', '1.07', '6', '1.06', '0' or '1.0' )."
+msgstr ""
+"Verkeerde btw-waarde, gebruik de volgende waardes ('20', '1.20', '21', '1."
+"21', '19', '1.19', '7', '1.07', '6', '1.06', '0' or '1.0' )."
+
+#: app/views/admin.metabox.php:53
+msgid "View invoice"
+msgstr "Bekijk factuur"
+
+#: config/errors.php:20 config/errors.php:61
+msgid "Voornaam of initialen ontbreken."
+msgstr "Voornaam of initialen ontbreken."
+
+#: config/fields.php:94
+msgid "WooCommerce order status"
+msgstr "WooCommerce orderstatus"
+
+#: config/fields.php:56
+msgid "Workflow Extended"
+msgstr "Uitgebreide Workflow configuratie"
+
+#: app/controllers/WorkflowController.php:119
+msgid "Workflow for invoice %d started."
+msgstr "Workflow voor factuur %d gestart."
+
+#: app/views/setting.workflow.php:32 app/views/setting.workflow.php:64
+msgid "Workflow number"
+msgstr "Workflow nummer"
+
+#: config/errors.php:96
+msgid "Workflow without guarantee is used for check request."
+msgstr "De workflow zonder garanties is gebruikt voor de check request."
+
+#: config/errors.php:12
+msgid "Workflownummer ontbreekt."
+msgstr "Workflownummer ontbreekt."
+
+#: config/errors.php:38
+msgid "Wrong check type provided"
+msgstr "Verkeerde check type"
+
+#: config/errors.php:132
+msgid "XML is leeg of niet gevonden."
+msgstr "XML is leeg of niet gevonden."
+
+#: app/controllers/AdminActionController.php:61
+msgid "You are not allowed to edit Billink orders."
+msgstr "Je het niet voldoende rechten om de Billink order te bewerken."
+
+#: config/fields.php:210 app/models/Gateway/FieldValidationProcessor.php:27
+msgid "You must accept the Billink terms."
+msgstr "Je moet akkoord gaan met de algemene voorwaarden van Billink."
+
+#: config/gateway.php:11
+msgid ""
+"You must be at least 18+ to use this service. If you pay on time, you will "
+"avoid additional costs and ensure that you can use Billink's services again "
+"in the future."
+msgstr ""
+"Je moet minimaal 18+ zijn om deze dienst te gebruiken. Als je op tijd "
+"betaalt, voorkom je extra kosten en zorg je dat je in de toekomst nogmaals "
+"gebruik kunt maken van de diensten van Billink."
+
+#: app/helpers/AddressSplitter.php:229
+msgid ""
+"Your house number cannot be determined. Fill in your address + house number, "
+"for example Streetname 12."
+msgstr ""
+"Uw huisnummer kan niet worden vastgesteld. Vul je adres en huisnummer in, "
+"bijvoorbeeld Straatnaam 12."
+
+#: config/fields.php:50
+msgid "Your user ID at Billink."
+msgstr "De gebruikers ID bij Billink."
+
+#: config/fields.php:42
+msgid "Your username at Billink"
+msgstr "De gebruikersnaam bij Billink"

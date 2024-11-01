@@ -1,0 +1,48 @@
+{
+    "landingPage": "wp-admin/admin.php?page=wc-settings&tab=checkout&section=billink",
+    "preferredVersions": {
+        "php": "8.2",
+        "wp": "6.5"
+    },
+    "phpExtensionBundles": [
+        "kitchen-sink"
+    ],
+	"features": {
+		"networking": true,
+        "storage": "browser"
+	},
+    "steps": [
+        {
+            "step": "login",
+            "username": "admin",
+            "password": "password"
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "wordpress.org\/plugins",
+                "slug": "woocommerce"
+            },
+            "options": {
+                "activate": true
+            }
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "url",
+                "url": "https:\/\/downloads.wordpress.org\/plugin\/woocommerce-billink.2.4.1.zip"
+            },
+            "options": {
+                "activate": true
+            }
+        },
+        {
+            "step": "installTheme",
+            "themeZipFile": {
+                "resource": "wordpress.org\/themes",
+                "slug": "storefront"
+            }
+        }
+    ]
+}
